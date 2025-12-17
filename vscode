@@ -1,0 +1,12 @@
+{
+    "name": "Zpot Server",
+    "host": "zpot-official.my.id",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "fattann@zpot-official.my.id",
+    "password": "fattanzpot123",
+    "remotePath": "/",
+    "uploadOnSave": true,
+    "useTempFile": false,
+    "openSsh": false
+}
