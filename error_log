@@ -1,0 +1,41 @@
+[10-Dec-2025 07:45:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'zpot'@'localhost' (using password: YES) in /home/dlyzyzzj/public_html/koneksi.php:7
+Stack trace:
+#0 /home/dlyzyzzj/public_html/koneksi.php(7): mysqli_connect('localhost', 'zpot', 'zpotsukses1234', 'dlyzyzzj_zpotdb')
+#1 /home/dlyzyzzj/public_html/register_process.php(6): include('/home/dlyzyzzj/...')
+#2 {main}
+  thrown in /home/dlyzyzzj/public_html/koneksi.php on line 7
+[10-Dec-2025 07:46:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'zpot'@'localhost' (using password: YES) in /home/dlyzyzzj/public_html/koneksi.php:7
+Stack trace:
+#0 /home/dlyzyzzj/public_html/koneksi.php(7): mysqli_connect('localhost', 'zpot', 'zpotsukses1234', 'dlyzyzzj_zpotdb')
+#1 /home/dlyzyzzj/public_html/register_process.php(6): include('/home/dlyzyzzj/...')
+#2 {main}
+  thrown in /home/dlyzyzzj/public_html/koneksi.php on line 7
+[10-Dec-2025 07:47:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'zpot'@'localhost' (using password: YES) in /home/dlyzyzzj/public_html/koneksi.php:7
+Stack trace:
+#0 /home/dlyzyzzj/public_html/koneksi.php(7): mysqli_connect('localhost', 'zpot', 'zpotsukses1234', 'dlyzyzzj_zpotdb')
+#1 /home/dlyzyzzj/public_html/register_process.php(6): include('/home/dlyzyzzj/...')
+#2 {main}
+  thrown in /home/dlyzyzzj/public_html/koneksi.php on line 7
+[10-Dec-2025 07:52:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dlyzyzzj_zpotdb.users' doesn't exist in /home/dlyzyzzj/public_html/register_process.php:24
+Stack trace:
+#0 /home/dlyzyzzj/public_html/register_process.php(24): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in /home/dlyzyzzj/public_html/register_process.php on line 24
+[10-Dec-2025 14:26:01 UTC] PHP Warning:  Undefined array key "role" in /home/dlyzyzzj/public_html/login_process.php on line 21
+[10-Dec-2025 14:32:23 UTC] PHP Warning:  Undefined array key "role" in /home/dlyzyzzj/public_html/login_process.php on line 21
+[10-Dec-2025 14:37:33 UTC] PHP Parse error:  Unclosed '{' on line 142 in /home/dlyzyzzj/public_html/profile.php on line 395
+[10-Dec-2025 14:37:36 UTC] PHP Parse error:  Unclosed '{' on line 142 in /home/dlyzyzzj/public_html/profile.php on line 395
+[10-Dec-2025 14:37:40 UTC] PHP Parse error:  Unclosed '{' on line 142 in /home/dlyzyzzj/public_html/profile.php on line 395
+[10-Dec-2025 14:37:43 UTC] PHP Parse error:  Unclosed '{' on line 142 in /home/dlyzyzzj/public_html/profile.php on line 395
+[10-Dec-2025 14:37:49 UTC] PHP Parse error:  Unclosed '{' on line 142 in /home/dlyzyzzj/public_html/profile.php on line 395
+[10-Dec-2025 14:38:47 UTC] PHP Parse error:  Unclosed '{' on line 142 in /home/dlyzyzzj/public_html/profile.php on line 395
+[10-Dec-2025 14:39:51 UTC] PHP Parse error:  Unclosed '{' on line 142 in /home/dlyzyzzj/public_html/profile.php on line 395
+[10-Dec-2025 14:40:35 UTC] PHP Warning:  Undefined array key "role" in /home/dlyzyzzj/public_html/login_process.php on line 21
+[10-Dec-2025 14:47:40 UTC] PHP Warning:  Undefined array key "role" in /home/dlyzyzzj/public_html/login_process.php on line 21
+[12-Dec-2025 07:06:21 UTC] PHP Warning:  Undefined array key "name" in /home/dlyzyzzj/public_html/profile.php on line 85
+[12-Dec-2025 07:06:37 UTC] PHP Warning:  Undefined array key "fullname" in /home/dlyzyzzj/public_html/profile.php on line 85
+[13-Dec-2025 06:40:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'category' in 'INSERT INTO' in /home/dlyzyzzj/public_html/test_debug.php:64
+Stack trace:
+#0 /home/dlyzyzzj/public_html/test_debug.php(64): mysqli_query(Object(mysqli), 'INSERT INTO rev...')
+#1 {main}
+  thrown in /home/dlyzyzzj/public_html/test_debug.php on line 64
